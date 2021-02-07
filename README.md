@@ -6,7 +6,7 @@ docker-compose up -d
 ```
 Executez le script python 'views.py'
 
-Rendez à l'adresse indiquée par le terminal.
+Rendez vous à l'adresse indiquée par le terminal.
 
 ## Page d'acceuil
 
