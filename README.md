@@ -1,2 +1,9 @@
-# DataEngineering
-web app based on data scraped from Expedia.fr and hotels.com (flask,scrapy, mongoDB, elasticSearch)
+## Lancement
+
+docker-compose up
+
+Executer le script pyhton :
+viewsb.py
+
+Se rendre à l'adresse indiquée par le terminal
+
