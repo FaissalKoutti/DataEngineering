@@ -15,13 +15,13 @@ Rendez à l'adresse indiquée par le terminal.
 </p>
 
 <p align= "center">
-<img src="static/img/acceui2.png"  align="middle">
+<img src="static/img/acceuil2.png"  align="middle">
 </p>
 
 ## Barre de recherche
 
 <p align= "center">
-<img src="static/img/barrederecherche.png"  align="middle">
+<img src="static/img/barrerecherche.png"  align="middle">
 </p>
 
 ## Pages de données scrapées
