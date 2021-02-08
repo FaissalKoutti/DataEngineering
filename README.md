@@ -8,8 +8,10 @@ Lancez la commande pour charger tous les packages nécessaires:
 ```bash
 pip install -r requirements.txt
 ```
-Executez le script python 'views.py'
-
+Executez le script:
+```bash
+python 'views.py'
+```
 Rendez vous à l'adresse indiquée par le terminal.
 
 ## Page d'acceuil
