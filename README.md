@@ -10,7 +10,7 @@ pip install -r requirements.txt
 ```
 Executez le script:
 ```bash
-python 'views.py'
+python views.py
 ```
 Rendez vous à l'adresse indiquée par le terminal.
 
