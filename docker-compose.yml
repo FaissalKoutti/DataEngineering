@@ -3,14 +3,14 @@ version: '3'
 services:
   elastic:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.4.0
-    container_name: elasticsearch4
+    container_name: elasticsearch
     environment:
       - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
       - discovery.type=single-node
     ports:
       - "9200:9200"
   mongo:
-    image: mongo4
+    image: mongo
     container_name: mongo
     environment:
       - MONGO_DATA_DIR=/data/db
@@ -18,6 +18,8 @@ services:
     volumes:
       - ./data/mongo:/data/db
     ports:
-        - 27017:27017
-  
-  
+        - "27018:27017"
+    
+    
+networks:
+  default:
