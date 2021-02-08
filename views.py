@@ -28,7 +28,7 @@ es_client = Elasticsearch(hosts=["localhost" if ES_LOCAL else "elasticsearch"])
 df2 = pd.read_csv('Export_DataFrame.csv')
 df2 = df2.to_dict(orient='records')
 
-client = pymongo.MongoClient('mongo')
+client = pymongo.MongoClient()
 
 database = client['df2']
 
