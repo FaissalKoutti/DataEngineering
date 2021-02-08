@@ -151,7 +151,7 @@ class GraphDash:
         #     app = dash.Dash(__name__)
 
         fig1 = px.bar(df_test2, x="id", y="notes", color="site", category_orders={"site": [
-                      "site"]}, barmode="group", title="Nombre d'hôtels ayant une note excellente superieure à 9.5 proposés par expedia et hotels.com", labels={"notes": "Meilleures notes d'hotels", "id": "Destination"})
+                      "site"]}, barmode="group", title="Nombre d'hôtels ayant une note superieure à 9.5 proposés par expedia et hotels.com", labels={"notes": "Meilleures notes d'hotels", "id": "Destination"})
 
         fig2 = px.scatter(df_prix, x="id", y="prix", color="site", size='prix', animation_frame='Debut', size_max=30,
                           title='Moyenne des prix des hotels sur Expedia et Hotels.com en fonction des semaines', labels={"prix": "Prix moyen", "id": "Destination"})
