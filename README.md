@@ -4,6 +4,10 @@ Lancez docker et la ligne de commande:
 ```bash
 docker-compose up -d
 ```
+Lancez la commande pour charger tous les packages nécessaires:
+```bash
+pip install -r requirements.txt
+```
 Executez le script python 'views.py'
 
 Rendez vous à l'adresse indiquée par le terminal.
